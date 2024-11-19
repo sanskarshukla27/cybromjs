@@ -45,12 +45,19 @@ function oper(){
 
 //confirm("hello i am confirm")
 
-let num1 =prompt("enter the num1" )
-let num2 =prompt("enter the num2" )
+//let num1 =parseInt(prompt("enter the num1" )) ;
+//let num2 =parseInt(prompt("enter the num2" )); 
 
 //console.log(num1+num2)
 //alert ("the sum is : " + (num1+num2))
-alert("the sum of promt is: " + (num1+num2))
+//alert("the sum of promt is: " + (num1+num2));
+
+let num1 =parseInt(prompt("enter your age :")) 
+if(num1>=18){
+    alert("yes uh can vote")
+}else{
+    alert("no uh cant vote")//ifelsequestion
+}
 
 
 
