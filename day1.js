@@ -35,7 +35,7 @@
 //}
 //run();
 
-function oper(){
+// function oper(){
 
 
     //Alert promt confirm
@@ -52,19 +52,59 @@ function oper(){
 //alert ("the sum is : " + (num1+num2))
 //alert("the sum of promt is: " + (num1+num2));
 
-let num1 =parseInt(prompt("enter your age :")) 
-if(num1>=18){
-    alert("yes uh can vote")
-}else{
-    alert("no uh cant vote")//ifelsequestion
+// 
+
+
+
+
+// }
+// oper();
+
+function run(){
+   // confirm("hello everyone")
+//prompt("hello guys")
+    //alert("hello")
+
+    // let num = prompt("enter your age :");
+    // num<18?alert("uh cant vote"):alert("uh can vote")
+
+    // let num1 = confirm("haave uh completed the course")
+    // let num2 = confirm("do uh have the certificate")
+    // if(num1&&num2){
+    //     alert("completed")
+    // }else{
+    //     alert("not completed")
+    // }
+
+    // let num1 = prompt("enter the number");
+    // if(num1 % 2==0){
+    //     alert("number is even")
+    // }else{
+    //     alert("number is odd")
+    // }
+
+    // let num1 =prompt("tell your item price:")
+   
+    // let num2 = confirm("do uh have a discount coupon ")
+    // num1 = ans1;
+    // num2 = ans2;
+    // if(ans1 == "true"){
+    //   discount = (ans1/10)*100; 
+    //   alert(discount); 
+    // }else{
+    //     alert("no discount")
+    // }
+
+
+    let num = prompt("tell me your marks")
+    if(num >= 33){
+        alert("uh are passed")
+    }else{
+        alert("uh are fail")
+    }
+
+    
 }
-
-
-
-
-}
-oper();
-
 
 
 
