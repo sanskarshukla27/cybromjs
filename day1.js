@@ -96,15 +96,35 @@ function run(){
     // }
 
 
-    let num = prompt("tell me your marks")
-    if(num >= 33){
-        alert("uh are passed")
-    }else{
-        alert("uh are fail")
-    }
+    // let num = prompt("tell me your marks")
+    // if(num >= 33){
+    //     alert("uh are passed")
+    // }else{
+    //     alert("uh are fail")
+    // }
 
+//      let num = confirm("are uh sure to delete")
+//      if(num){
+//         alert("item deleted")
+//      }else{
+// alert("canceled")
+//      } 
+
+// alert("hi")
+
+// let num1=1;
+//      while(num1<=10){
     
-}
+//         // document.write(num1++)
+//         console.log(num1++)
+//      }
+
+let para = document.querySelector("#text");
+
+para.textContent=" HELLO BAEBY ";   
+
+      }
+
 
 
 
