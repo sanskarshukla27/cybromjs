@@ -119,9 +119,18 @@ function run(){
 //         console.log(num1++)
 //      }
 
+// let para = document.querySelector("#text");
+
+// para.textContent=" HELLO BAEBY ";
+// para.style.color = "red" 
+
 let para = document.querySelector("#text");
 
-para.textContent=" HELLO BAEBY ";   
+if(para.style.display === "none"){
+para.style.display ="block";
+}else{
+    para.style.display="none"
+}
 
       }
 
