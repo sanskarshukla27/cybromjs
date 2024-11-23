@@ -124,15 +124,46 @@ function run(){
 // para.textContent=" HELLO BAEBY ";
 // para.style.color = "red" 
 
-let para = document.querySelector("#text");
+// let para = document.querySelector("#text");
 
-if(para.style.display === "none"){
-para.style.display ="block";
-}else{
-    para.style.display="none"
-}
+// if(para.style.display === "none"){
+// para.style.display ="block";
+// }else{
+//     para.style.display="none"
+// }
+
+
+// let para = document.querySelector("#first")
+// para.style.height = ("200px")
+// para.style.width = ("200px")
+// para.style.backgroundColor = ("red")
+
+
+// let para = document.querySelector("#first")
+// para.innerHTML =("hello")
+
+
+// let para = document.querySelector("#first")
+// para.style.height = ("200px")
+// para.style.width = ("200px")
+// para.style.backgroundColor = ("green")
+
 
       }
+
+      
+let count = 0;
+function inc(){
+count++;
+let para = document.querySelector("#first")
+para.innerHTML =count;
+}
+function dec(){
+    count--;
+    let para = document.querySelector("#first")
+    para.innerHTML =count;
+    
+}
 
 
 
