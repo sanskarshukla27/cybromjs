@@ -3,17 +3,9 @@ let flow=(a)=>{
 let para = document.querySelector("#para");
 para.innerHTML = `
 
-square is ${a*a}
+square is ${a*a};
 cube is ${a*a*a};`
-
-
-if(a%2==0){
-para.innerHtml("even")
-}else{
-para.innerHtml("odd")
-}
-
-
+// even odd ${a%2==0?a=even:a=odd}
 
 
 }
