@@ -40,7 +40,27 @@ else if(!(email.includes("@") && email.includes(".com"))){
     erroremail.innerHTML="please enter valid email";
     erroremail.style.color="red";
     return false;
-} 
+}
+else if(!
+    (
+        pass.match(/[1234567890]/) 
+         && 
+        pass.match(/[!@#$%^&*()]/) 
+         && 
+        pass.match(/[a-z]/) 
+         && 
+        pass.match(/[A-Z]/)
+    )
+){
+    errorpass.innerHTML = "Password contain atleast 1 lower, upper ,special and number";
+    document.querySelector('#errorpass').style.color = "red";
+    let passinp=document.querySelector("#pass")
+    passinp.style.borderColor = "red"
+    passinp.style.outlineColor = "red"
+    return false;
+}
+
+
 else if(pass===""){
     errorpass.innerHTML="please enter password";
     errorpass.style.color="red";
