@@ -53,7 +53,8 @@ else if(!
     )
 ){
     errorpass.innerHTML = "Password contain atleast 1 lower, upper ,special and number";
-    document.querySelector('#errorpass').style.color = "red";
+    errorpass.style.color = "red";
+    
     let passinp=document.querySelector("#pass")
     passinp.style.borderColor = "red"
     passinp.style.outlineColor = "red"
