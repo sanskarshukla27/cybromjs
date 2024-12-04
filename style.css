@@ -1,0 +1,49 @@
+#mainbox{
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    
+    
+}
+#mainimg{
+    height: 400px;
+    width: 500px
+}
+#boxes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:100px ;
+    justify-content: center;
+    
+}
+#box1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+
+}
+#img1{
+    height: 200px;
+    width: 200px;
+}
+#img2{
+    height: 200px;
+    width: 200px;
+}
+#img3{
+    height: 200px;
+    width: 200px;
+}
+
+#box2{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    
+}
