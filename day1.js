@@ -53,14 +53,10 @@
 //alert("the sum of promt is: " + (num1+num2));
 
 // 
-
-
-
-
 // }
 // oper();
 
-function run(){
+// function run(){
    // confirm("hello everyone")
 //prompt("hello guys")
     //alert("hello")
@@ -75,7 +71,7 @@ function run(){
     // }else{
     //     alert("not completed")
     // }
-
+ 
     // let num1 = prompt("enter the number");
     // if(num1 % 2==0){
     //     alert("number is even")
@@ -147,24 +143,31 @@ function run(){
 // para.style.height = ("200px")
 // para.style.width = ("200px")
 // para.style.backgroundColor = ("green")
--
 
-      }
+
+//       }
 
       
-let count = 0;
-function inc(){
-count++;
-let para = document.querySelector("#first")
-para.innerHTML =count;
-}
-function dec(){
-    count--;
-    let para = document.querySelector("#first")
-    para.innerHTML =count;
+// let count = 0;
+// function inc(){
+// count++;
+// let para = document.querySelector("#first")
+// para.innerHTML =count;
+// }
+// function dec(){
+//     count--;
+//     let para = document.querySelector("#first")
+//     para.innerHTML =count;
     
+// }
+
+
+
+function run(){
+for(let i =1; i<10;i++){
+    prompt(i);
 }
 
 
 
-
+}run()
