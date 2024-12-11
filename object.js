@@ -32,9 +32,19 @@
 
 const St=()=>{
 
-    let Student = {name:"sanskar",age:21,city:"bhopal",}
-    const{name,age,city}=student;
+    // let Student = {name:"sanskar",age:21,city:"bhopal",}
+    // const{name,age,city}=student;
 
-    console.log(age)
+    // console.log(age)
+
+//spread operator.....
+
+
+    let obj1={name:"sanskar",city:"bhopal"}
+    let obj2={age1:21,city:"banaras"}
+
+    let newobj = {...obj1,...obj2}
+    console.log(newobj);
 
 }
+St()
