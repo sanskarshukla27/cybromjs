@@ -7,7 +7,7 @@
 </head>
 <body>
     
-    <table border = "1" align = "center" cellspacing ="20px" cellpadding ="20px">
+    <table border = "1" align = "center" cellspacing ="20px" cellpadding ="20px" style="background-color: green;">
         <tr>
             <td id="show" colspan="4"></td>
         </tr>
@@ -34,10 +34,10 @@
         <td onclick="cal('/')">/</td>
         <td onclick="cal('%')">%</td>
         <tr>
-            <td>AC</td>
-            <td>DEL</td>
+            <td onclick="ac()">AC</td>
+            <td onclick="del()">DEL</td>
             <td onclick="result()">=</td>
-            <td>.</td>
+            <td onclick="cal('.')">.</td>
         </tr>
     </table>
 
