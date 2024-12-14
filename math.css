@@ -1,0 +1,103 @@
+#one{
+    
+padding-top: 75px;
+    height: 100px;
+    width: 200px;
+    background-color:wheat;
+    display: none;
+}
+#two{
+    padding-top: 75px;
+    height: 100px;
+    width: 200px;
+    background-color:wheat;
+    display: none;
+}
+#three{
+    padding-top: 75px;
+    height: 100px;
+    width: 200px;
+    background-color:wheat;
+    display: none;
+}
+#four{
+    padding-top: 75px;
+    height: 100px;
+    width: 200px;
+    background-color:wheat;
+    display: none;
+}
+#five{
+    padding-top: 75px;
+    height: 130px;
+    width: 200px;
+    background-color:wheat;
+    display: none;
+}
+#six{
+    padding-top: 75px;
+    height: 150px;
+    width: 200px;
+    background-color:wheat;
+    display: none;
+}
+
+#diceone{
+    
+   margin-left: 90px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+   
+}
+.dicetwo{
+    margin-left: 90px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+}
+.dicethree{
+    margin-left: 90px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+}
+.dicefour{
+    margin-left: 90px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+}
+.dicefive{
+    margin-left: 90px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+}
+.dicesix{
+    margin-left: 90px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#btn{
+    color: white;
+    background-color:blue;
+    height: 40px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
