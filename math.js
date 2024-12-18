@@ -2,7 +2,7 @@ let run=()=>{
 
 let btn=document.querySelector("#btn")
 
-let dice =Math.round(Math.random()*6)
+let dice =Math.round(Math.random()*6+1)
 
 let show1=document.querySelector("#one")
 let show2=document.querySelector("#two")
